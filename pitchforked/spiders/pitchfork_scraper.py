@@ -6,7 +6,7 @@ class PitchforkSpider(scrapy.Spider):
 
     def start_requests(self):
         i = 1
-        while i < 10:
+        while i < 2000:
             i += 1
             urls = [
                 "https://pitchfork.com/reviews/albums/?page={}".format(i)
